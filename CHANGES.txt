@@ -1,1 +1,10 @@
 TODO: List here all the changes you made to given template to adapt it to your needs
+
+Add 2 new sections of your choice to the page with Bootstrap:
+
+Make at least 10 changes to the existing components/utilities of the given template:
+- Changed/ Added About me section
+- Highlights thatfeature different areas of design work
+- Changed nav bar to have extra webpages more suited for my portfolio
+- Added a "services" section to showcase what my company offers
+- 
