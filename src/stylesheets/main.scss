@@ -21,3 +21,12 @@
   max-width: 150px;
   max-height: 150px;
 }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(94, 35, 83, 0.2),
+    0 6px 20px 0 rgba(94, 35, 83, 0.2);
+}
+
+.bg-card {
+  background-color: rgba(161, 195, 209, 1);
+}

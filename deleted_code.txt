@@ -1,19 +1,5 @@
-TODO: List here all the changes you made to given template to adapt it to your needs
 
-Add 2 new sections of your choice to the page with Bootstrap:
-
-Make at least 10 changes to the existing components/utilities of the given template:
-- Changed/ Added About me section
-- Highlights thatfeature different areas of design work
-- Changed nav bar to have extra webpages more suited for my portfolio
-- Added a "services" section to showcase what my company offers
-- Changed the testimonials
-- Added different icons for testimonials (stars, quotations)
-- 
-
-
-
-
+Deleted Code:
 
 
   <!-- THE SERVICES SECTION -->
@@ -102,3 +88,83 @@ Make at least 10 changes to the existing components/utilities of the given templ
       </div>
     </div>
   </section>
+
+
+
+ <!-- THE FIND ME SECTION -->
+  <section id="companies" class="companies">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold">Find me.</h1>
+        <div class="heading-line mb-5"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-lg-2">
+          <div class="companies__logo-box shadow-sm">
+            <img src="images/companies/company-1.png" alt="Company 1 logo" title="Company 1 Logo" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="companies__logo-box shadow-sm">
+            <img src="images/companies/company-2.png" alt="Company 2 logo" title="Company 2 Logo" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="companies__logo-box shadow-sm">
+            <img src="images/companies/company-3.png" alt="Company 3 logo" title="Company 3 Logo" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="companies__logo-box shadow-sm">
+            <img src="images/companies/company-4.png" alt="Company 4 logo" title="Company 4 Logo" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="companies__logo-box shadow-sm">
+            <img src="images/companies/company-5.png" alt="Company 5 logo" title="Company 5 Logo" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="companies__logo-box shadow-sm">
+            <img src="images/companies/company-6.png" alt="Company 6 logo" title="Company 6 Logo" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  --- Footer ----
+   <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+          <h5 class="text-capitalize fw-bold">Products</h5>
+          <hr class="bg-secondary d-inline-block mb-4" style="width: 100%; height: 2px;">
+          <ul class="list-inline company-list">
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+          <h5 class="text-capitalize fw-bold">useful links</h5>
+          <hr class="bg-secondary d-inline-block mb-4" style="width: 100%; height: 2px;">
+          <ul class="list-inline company-list">
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+          <h5 class="text-capitalize fw-bold">contact</h5>
+          <hr class="bg-secondary d-inline-block mb-4" style="width: 100%; height: 2px;">
+          <ul class="list-inline company-list">
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+          </ul>
+        </div>

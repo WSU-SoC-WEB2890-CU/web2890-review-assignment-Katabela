@@ -6,10 +6,15 @@
   <title>Katherine Abela</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index,follow">
-  <meta name="description" content="TODO: A starter project for ...">
+  <meta name="description" content="A starter project for Katherine Abela">
   <title>Bootstrap 5 Landing Page Template</title>
 
   <link rel="stylesheet" href="./stylesheets/main.scss">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
@@ -79,7 +84,7 @@
     </svg>
   </section>
 
-  <!-- THE SERVICES SECTION -->
+  <!-- THE ABOUT ME SECTION -->
   <section id="services" class="services">
     <div class="container">
       <div class="row text-center">
@@ -174,87 +179,43 @@
 
   <!-- THE SERVICES SECTION -->
   <section id="faq" class="faq">
-    <div class="container">
+    <div class="container mt-5">
       <div class="row text-center">
-        <h1 class="display-3 fw-bold text-uppercase">Services</h1>
+        <h1 class="display-15 fw-bold text-uppercase">Services</h1>
         <div class="heading-line"></div>
         <p class="lead">What's offered & what you can expect from our services.</p>
       </div>
-      <div class="row mt-5">
-        <div class="col-md-12">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item shadow mb-3">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Animation
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Specializing in delivering captivating and dynamic animation design that brings your visuals to life.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item shadow mb-3">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Design
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  A versatile range of screen and print design solutions, tailored to elevate your brand's presence across both digital and physical mediums.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item shadow mb-3">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Film & Video
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Creating film and video design that adds cinematic flair to your projects, transforming ideas into captivating visual stories.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item shadow mb-3">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Social Content & Strategy
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Creating engaging and shareable social content that fuels brand conversations and drives meaningful engagement with your audience.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item shadow mb-3">
-              <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  Website Design
-                </button>
-              </h2>
-              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Specializing in crafting visually stunning and user-centric website designs that transform digital spaces into captivating brand experiences.
-                </div>
-              </div>
-            </div>
+      <div class="card-deck">
+        <div class="card bg-card accordion-item shadow mb-5">
+          <div class="card-body text-center">
+            <p class="card-title fw-bold text-uppercase ">Animation</p>
+            <p class="card-text">Specializing in delivering captivating and dynamic animation design that brings your visuals to life.</p>
           </div>
         </div>
+        <div class="card bg-card accordion-item shadow mb-5">
+          <div class="card-body text-center">
+            <p class="card-title fw-bold text-uppercase">Design</p>
+            <p class="card-text">A versatile range of screen and print design solutions, tailored to elevate your brand's presence across both digital and physical mediums.</p>
+          </div>
+        </div>
+        <div class="card bg-card accordion-item shadow mb-5">
+          <div class="card-body text-center">
+            <p class="card-title fw-bold text-uppercase">Film & Video</p>
+            <p class="card-text">Creating film and video design that adds cinematic flair to your projects, transforming ideas into captivating visual stories.</p>
+          </div>
+        </div>
+        <div class="card bg-card accordion-item shadow mb-5">
+          <div class="card-body text-center">
+            <p class="card-title fw-bold text-uppercase">Social Content & Strategy</p>
+            <p class="card-text">Creating engaging and shareable social content that fuels brand conversations and drives meaningful engagement with your audience.</p>
+          </div>
+        </div>  
+        <div class="card bg-card accordion-item shadow mb-5">
+          <div class="card-body text-center">
+            <p class="card-title fw-bold text-uppercase">Website Design</p>
+            <p class="card-text">Specializing in crafting visually stunning and user-centric website designs that transform digital spaces into captivating brand experiences.</p>
+          </div>
+        </div>  
       </div>
     </div>
   </section>
@@ -270,7 +231,7 @@
       <div class="row text-center text-white">
         <h1 class="display-3 fw-bold">Testimonials</h1>
         <hr style="width: 100px; height: 3px; " class="mx-auto">
-        <p class="lead pt-1">what our clients are saying</p>
+        <p class="lead pt-1">What our clients are saying</p>
       </div>
 
       <div class="row align-items-center">
@@ -279,17 +240,14 @@
             <div class="carousel-item active">
               <div class="testimonials__card">
                 <p class="lh-lg">
-                  <i class="bi bi-blockquote-left"></i>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae.
-                  Distinctio.
-                  <i class="bi bi-blockquote-right"></i>
+                  <i class="bi bi-quote"></i>
+                  They transformed my online presence with their remarkable web and graphic design skills, going above and beyond to capture my brand's essence and boost my business's success."
                 <div class="ratings p-1">
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
                 </div>
                 </p>
               </div>
@@ -297,23 +255,20 @@
                 <img src="images/testimonials/client-1.jpg" alt="client-1 picture" class="rounded-circle img-fluid">
               </div>
               <div class="testimonials__name">
-                <h3>Patrick Muriungi</h3>
-                <p class="fw-light">CEO & founder</p>
+                <h3>Sam H</h3>
+                <p class="fw-light">Owner, Sam's Bar & Grill</p>
               </div>
             </div>
             <div class="carousel-item">
               <div class="testimonials__card">
                 <p class="lh-lg">
-                  <i class="bi bi-blockquote-left"></i>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae.
-                  Distinctio.
-                  <i class="bi bi-blockquote-right"></i>
+                  <i class="bi bi-quote"></i>
+                  Katherine took my business to the next level with their exceptional web and graphic design expertise, providing a seamless experience and a stunning online presence that truly reflects my brand"
                 <div class="ratings p-1">
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
                   <i class="bi bi-star"></i>
                 </div>
                 </p>
@@ -323,23 +278,20 @@
               </div>
               <div class="testimonials__name">
                 <h3>Joy Marete</h3>
-                <p class="fw-light">Finance Manager</p>
+                <p class="fw-light">Joy's Boutique</p>
               </div>
             </div>
             <div class="carousel-item">
               <div class="testimonials__card">
                 <p class="lh-lg">
-                  <i class="bi bi-blockquote-left"></i>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae.
-                  Distinctio.
-                  <i class="bi bi-blockquote-right"></i>
+                  <i class="bi bi-quote"></i>
+                  Working with Katherine's Designs was an absolute pleasure; their creativity and attention to detail in web and graphic design exceeded my expectations, resulting in a visually captivating and highly functional website that has greatly improved my business."
                 <div class="ratings p-1">
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
                 </div>
                 </p>
               </div>
@@ -347,23 +299,20 @@
                 <img src="images/testimonials/client-3.jpg" alt="client-3 picture" class="rounded-circle img-fluid">
               </div>
               <div class="testimonials__name">
-                <h3>ClaireBelle Zawadi</h3>
-                <p class="fw-light">Global brand manager</p>
+                <h3>Emily M</h3>
+                <p class="fw-light">Founder, Artisan Eats</p>
               </div>
             </div>
             <div class="carousel-item">
               <div class="testimonials__card">
                 <p class="lh-lg">
-                  <i class="bi bi-blockquote-left"></i>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae.
-                  Distinctio.
-                  <i class="bi bi-blockquote-right"></i>
+                  <i class="bi bi-quote"></i>
+                  Katherine's Designs made my vision come to life with their outstanding graphic and web design services, offering unmatched professionalism, communication, and a final product that has significantly boosted my business's online impact"
                 <div class="ratings p-1">
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
                   <i class="bi bi-star"></i>
                 </div>
                 </p>
@@ -372,8 +321,8 @@
                 <img src="images/testimonials/client-4.jpg" alt="client-4 picture" class="rounded-circle img-fluid">
               </div>
               <div class="testimonials__name">
-                <h3>Uhuru Kenyatta</h3>
-                <p class="fw-light">C.E.O & Founder</p>
+                <h3>Daniel P</h3>
+                <p class="fw-light">Creative Director, PixelCraft Studios</p>
               </div>
             </div>
           </div>
@@ -395,61 +344,17 @@
     </svg>
   </section>
 
-  <!-- THE FIND ME SECTION -->
-  <section id="companies" class="companies">
-    <div class="container">
-      <div class="row text-center">
-        <h1 class="display-3 fw-bold">Find me.</h1>
-        <div class="heading-line mb-5"></div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-lg-2">
-          <div class="companies__logo-box shadow-sm">
-            <img src="images/companies/company-1.png" alt="Company 1 logo" title="Company 1 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="companies__logo-box shadow-sm">
-            <img src="images/companies/company-2.png" alt="Company 2 logo" title="Company 2 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="companies__logo-box shadow-sm">
-            <img src="images/companies/company-3.png" alt="Company 3 logo" title="Company 3 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="companies__logo-box shadow-sm">
-            <img src="images/companies/company-4.png" alt="Company 4 logo" title="Company 4 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="companies__logo-box shadow-sm">
-            <img src="images/companies/company-5.png" alt="Company 5 logo" title="Company 5 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="companies__logo-box shadow-sm">
-            <img src="images/companies/company-6.png" alt="Company 6 logo" title="Company 6 Logo" class="img-fluid">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- THE PORTFOLIO -->
   <section id="portfolio" class="portfolio">
     <div class="container">
-      <div class="row text-center mt-5">
+      <div class="row text-center mt-0">
         <h1 class="display-3 fw-bold text-capitalize">Latest work</h1>
         <div class="heading-line"></div>
         <p class="lead">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro temporibus distinctio.
+        These testimonials showcase the exceptional quality of our work, representing just a few of the last projects we've had the privilege to work on.
         </p>
       </div>
-      <div class="row mt-5 mb-4 g-3 text-center">
+      <div class="row mt-0 mb-4 g-3 text-center">
         <div class="col-md-12">
           <button class="btn btn-outline-primary" type="button">All</button>
           <button class="btn btn-outline-primary" type="button">websites</button>
@@ -461,108 +366,72 @@
       <div class="row">
         <div class="col-lg-4 col-md-6">
           <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-1.jpg" alt="portfolio 1 image" title="portfolio 1 picture"
+            <img src="images/portfolio/eg1.png" alt="portfolio 1 image" title="portfolio 1 picture"
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 1</h4>
-                <p>category project</p>
+                <h4>EcoWave Retreat Website Redesign</h4>
+                <p>Sustainable Tourism</p>
               </div>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-2.jpg" alt="portfolio 2 image" title="portfolio 2 picture"
+            <img src="images/portfolio/eg2.jpg" alt="portfolio 2 image" title="portfolio 2 picture"
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 2</h4>
-                <p>category project</p>
+                <h4>TechGenius App Branding</h4>
+                <p>Mobile App Development</p>
               </div>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-3.jpg" alt="portfolio 3 image" title="portfolio 3 picture"
+            <img src="images/portfolio/eg3.jpg" alt="portfolio 3 image" title="portfolio 3 picture"
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 3</h4>
-                <p>category project</p>
+                <h4>Gourmet Delights E-commerce Store</h4>
+                <p>Food & Beverage</p>
               </div>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-4.jpg" alt="portfolio 4 image" title="portfolio 4 picture"
+            <img src="images/portfolio/eg4.jpg" alt="portfolio 4 image" title="portfolio 4 picture"
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 4</h4>
-                <p>category project</p>
+                <h4>Fashion Fusion Magazine Layout</h4>
+                <p>Print Media</p>
               </div>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-5.jpg" alt="portfolio 5 image" title="portfolio 5 picture"
+            <img src="images/portfolio/eg5.png" alt="portfolio 5 image" title="portfolio 5 picture"
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 5</h4>
-                <p>category project</p>
+                <h4>SportsMax Fitness App Interface</h4>
+                <p>Health & Fitness</p>
               </div>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-6.jpg" alt="portfolio 6 image" title="portfolio 6 picture"
+            <img src="images/portfolio/eg6.jpg" alt="portfolio 6 image" title="portfolio 6 picture"
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 6</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-7.jpg" alt="portfolio 7 image" title="portfolio 7 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 7</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-8.jpg" alt="portfolio 8 image" title="portfolio 8 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 8</h4>
-                <p>category project</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-9.jpg" alt="portfolio 9 image" title="portfolio 9 picture"
-              class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <h4>project name goes here 9</h4>
-                <p>category project</p>
+                <h4>EnviroScape Environmental Campaign Graphics</h4>
+                <p>Environmental Awareness</p>
               </div>
             </div>
           </div>
@@ -578,7 +447,7 @@
         <h1 class="display-3 fw-bold text-capitalize">Get started</h1>
         <div class="heading-line"></div>
         <p class="lh-lg">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero illum architecto modi.
+          Reach out and share your design desires with us; we'd love to provide you with a personalized quote!
         </p>
       </div>
 
@@ -587,8 +456,7 @@
           <div class="cta-info w-100">
             <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
             <p class="lh-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam alias optio minima, tempore architecto
-              sint ipsam dolore tempora facere laboriosam corrupti!
+              Share your design brief details in the message section so we can give you an acurate quote and we'll get back to you in 2-3 business days.
             </p>
             <h3 class="display-3--brief">What will be the next step?</h3>
             <ul class="cta-info__list">
@@ -630,8 +498,22 @@
       </div>
     </div>
   </section>
+
 <!-- THE FOOTER SECTION -->
   <footer class="footer">
+
+    <div class="container mt-5">
+      <div class="row text-black justify-content-center mt-3 pb-3">
+        <div class="col-12 col-sm-6 col-lg-6 mx-auto">
+          <h5 class="text-capitalize fw-bold text-center">Katherine Abela Designs</h5>
+          <hr class="bg-secondary d-inline-block mb-4" style="width: 100%; height: 2px;">
+          <p class="lh-lg text-center">
+            Whatever challenge your organization might face, you don't have to solve it alone. Let's create it together.
+          </p>
+        </div>
+      </div>
+    </div>
+
     <div class="container">
       <div class="row">
         <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
@@ -696,49 +578,6 @@
             <a href="#"><i class="bi bi-linkedin"></i></a>
             <a href="#"><i class="bi bi-instagram"></i></a>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container mt-5">
-      <div class="row text-white justify-content-center mt-3 pb-3">
-        <div class="col-12 col-sm-6 col-lg-6 mx-auto">
-          <h5 class="text-capitalize fw-bold">Company name</h5>
-          <hr class="bg-secondary d-inline-block mb-4" style="width: 100%; height: 2px;">
-          <p class="lh-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ex obcaecati blanditiis reprehenderit ab
-            mollitia voluptatem consectetur?
-          </p>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-          <h5 class="text-capitalize fw-bold">Products</h5>
-          <hr class="bg-secondary d-inline-block mb-4" style="width: 100%; height: 2px;">
-          <ul class="list-inline company-list">
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-          </ul>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-          <h5 class="text-capitalize fw-bold">useful links</h5>
-          <hr class="bg-secondary d-inline-block mb-4" style="width: 100%; height: 2px;">
-          <ul class="list-inline company-list">
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-          </ul>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-          <h5 class="text-capitalize fw-bold">contact</h5>
-          <hr class="bg-secondary d-inline-block mb-4" style="width: 100%; height: 2px;">
-          <ul class="list-inline company-list">
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-          </ul>
         </div>
       </div>
     </div>
